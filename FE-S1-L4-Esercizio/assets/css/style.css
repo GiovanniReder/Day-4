@@ -92,6 +92,10 @@ ul{
 .gray {
     background-color: rgba(197, 193, 193, 0.782);
     border-radius: 15%;
+    border: solid 1px black;
     
     
+}
+#aside1{
+    margin-top: 50%;
 }
