@@ -1,0 +1,235 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+body {
+  width: 500px;
+  background-image: url("/assets/img/sfondo.png"), url("/assets/img/sfondo.png"),
+    url("/assets/img/sfondo.png");
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: inherit;
+  line-height: 1.5;
+  font-size: 1.3em;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+header {
+  width: 70%;
+  padding: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background: linear-gradient(rgb(1, 124, 138), rgb(0, 85, 102));
+  margin-top: 5%;
+}
+#logo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+.white {
+  color: white;
+  text-decoration: none;
+}
+#navbar {
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1.3em;
+}
+#ul-nav {
+  list-style: none;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-left: 3%;
+  padding-top: 5%;
+  padding-right: 8%;
+  padding-bottom: 6%;
+}
+main {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border: solid 1px black;
+  padding: 5%;
+}
+.mario {
+  color: rgba(113, 112, 112, 0.779);
+  display: inline;
+}
+.margintop {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 1%;
+}
+.textviola {
+  color: purple;
+}
+#spaziare {
+  margin-bottom: 8%;
+}
+
+.gray {
+  background-color: rgba(197, 193, 193, 0.782);
+  border-radius: 10px;
+  border: solid 1px black;
+}
+#aside1 {
+  margin-top: 7%;
+}
+#pcss {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+ol {
+  list-style: decimal;
+}
+#lista {
+  list-style-type: disc;
+  margin-bottom: 10%;
+  padding-left: 10%;
+}
+code {
+  border: 1px solid rgb(192, 190, 190);
+  background-color: rgb(192, 190, 190);
+  border-radius: 10px;
+}
+caption {
+  font-style: italic;
+  font-weight: bolder;
+}
+thead tr {
+  border: 1px solid rgb(36, 116, 236);
+  background-color: rgb(36, 116, 236);
+  height: 75px;
+}
+tr th {
+  vertical-align: bottom;
+  color: white;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 5%;
+}
+tr th:first-child {
+  width: 90px;
+}
+
+table {
+  width: 100%;
+}
+tbody tr {
+  height: 50px;
+  vertical-align: bottom;
+}
+tr td {
+  vertical-align: bottom;
+  padding: 5%;
+  text-align: center;
+}
+tbody tr:nth-child(2n + 2) {
+  border-top: 1px solid rgba(152, 152, 0, 0.679);
+  border-bottom: 1px solid rgb(151, 151, 151);
+  background-color: rgba(207, 204, 200, 0.49);
+}
+tbody tr:last-child {
+  border-bottom: 2px solid rgb(78, 80, 233);
+}
+#lista2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+#tool {
+  margin-top: 10%;
+}
+#video {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 13%;
+}
+.azzurro {
+  color: rgb(0, 166, 255);
+}
+#backgrey {
+  background-color: rgba(193, 193, 193, 0.738);
+}
+#h2centre {
+  text-align: center;
+}
+#h3join {
+  padding-right: 0%;
+  padding-left: 7%;
+}
+#dotline {
+  height: 30px;
+  margin-left: 10%;
+  border-style: none;
+  border-bottom: dotted;
+  display: inline;
+}
+#button button {
+  color: white;
+  background-color: rgb(17, 120, 239);
+  height: 20px;
+  display: inline;
+
+  margin-right: 0px;
+}
+h4 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.articolicorrelati {
+  background-color: rgba(193, 193, 193, 0.738);
+  margin-top: 20%;
+  margin-bottom: 20%;
+  height: 200px;
+}
+.linkart {
+  color: rgb(8, 145, 231);
+  margin-left: 10%;
+}
+#develop {
+  margin-left: 10%;
+}
+#develop2 {
+  margin-left: 10%;
+}
+#ottim {
+  margin-left: 10%;
+}
+.data {
+  text-align: end;
+  margin-top: 20%;
+  margin-right: 10%;
+}
+footer {
+  text-align: center;
+  color: white;
+
+  background: radial-gradient(rgb(13, 113, 126), rgb(0, 43, 49));
+}
