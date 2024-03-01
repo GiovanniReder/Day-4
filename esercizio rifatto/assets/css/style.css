@@ -1,0 +1,4 @@
+body{
+    width: 500px;
+    background-image: url("sfondo.png"), url("sfondo.png"), url("sfondo.png");
+}
